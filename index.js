@@ -22,4 +22,8 @@ function BoardMember(name, homeState, training){
   }
 }
 
+this.prototype.veto = function(){
+    return 'No, I must disagree'
+  }
+
 
